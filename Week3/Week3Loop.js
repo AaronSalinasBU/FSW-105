@@ -57,7 +57,7 @@ for (var x = 0; x < 100; x++){
     } else {
         console.log("odd")
     }
-}
+};
 
 // is light on or off?
 var array = [2, 5, 435, 4, 3]
@@ -69,4 +69,4 @@ if(sum % 2 === 1){
     console.log("light is switched on")
 }else {
     console.log("light is switched off")
-}
+};
