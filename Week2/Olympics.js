@@ -2,7 +2,7 @@ var person = {
     name: "Bobby",
     age: 12
 }// Bronz Medal
-if (person.age >= 18 || person.name === "B") {
+if (person.age >= 18 && person.name.charAt(0) === "B") {
     console.log("Bobby can go the movies")
 } else {
     console.log("bobby can not go to the movies")
