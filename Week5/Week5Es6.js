@@ -1,5 +1,5 @@
 const ownerName = "john"
-const age = 101
+const ageone = 101
 
 function runForLoop(pets) {
     var petObjects = []
@@ -7,12 +7,12 @@ function runForLoop(pets) {
         const pet = {type: pets[i]}
         ownerName;
         if (pets[i] === "cat"){
-            name = "fluffy"
+            petName = "fluffy"
         } else {
-            name = "spot"
+            petName = "spot"
         }
-        console.log("pet name : ", name)
-        pet.name = name
+        console.log("pet name : ", petName)
+        pet.ame = petName
         petObjects.push(pet)
     }
     console.log("man name: ", ownerName)
@@ -40,9 +40,12 @@ function filterForFriendly(arr){
 }
 console.log(filterForFriendly(people));
 
+function doMathSum(a,b){
+    return a + b
+}
 doMathSum( (a, b) => a + b );
 
-const produceProduct = functionName((a, b) => a * b)
+const produceProduct = ((a, b) => a * b);
 
 const firstName = "Jane"
 const lastName = "Doe"
